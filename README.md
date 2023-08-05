@@ -1,1 +1,1 @@
-# oopsano.github.io
+#A mirror for my personal site on Neocities!
