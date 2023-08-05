@@ -1,5 +1,17 @@
 body {
-Background-color: rgb(109, 104, 117);
+/*Background-color: rgb(109, 104, 117);*/
 color: rgb(229, 152, 155);
 font-family: 'ink free', sans serif;
+background-image:url(https://web.archive.org/web/20090725113659im_/http://www.geocities.com/aeromech_99a/WallpaperBlueBlinkingStars.gif);
+background-repeat:repeat;
+margin-left: 20%;
+margin-right: 20%;
+}
+
+a:visited {
+color: rgb(181, 131, 141);
+}
+
+#delete {
+color: rgb(181, 131, 141);
 }
