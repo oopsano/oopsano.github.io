@@ -1,1 +1,1 @@
-#A mirror for my personal site on Neocities!
+A mirror for my personal site on Neocities!
