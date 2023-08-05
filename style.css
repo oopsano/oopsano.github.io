@@ -1,21 +1,50 @@
 body {
-/*Background-color: rgb(109, 104, 117);*/
-color: rgb(229, 152, 155);
-font-family: 'ink free', sans serif;
-background-image:url(https://web.archive.org/web/20090725113659im_/http://www.geocities.com/aeromech_99a/WallpaperBlueBlinkingStars.gif);
-background-repeat:repeat;
-margin-left: 25%;
-margin-right: 20%;
+	/*Background-color: rgb(109, 104, 117);*/
+	color: rgb(229, 152, 155);
+	font-family: 'ink free', sans serif;
+	background-image:url(https://web.archive.org/web/20090725113659im_/http://www.geocities.com/aeromech_99a/WallpaperBlueBlinkingStars.gif);
+	background-repeat:repeat;
+	margin-left: 25%;
+	margin-right: 20%;
 }
 a:visited {
 color: rgb(181, 131, 141);
 }
 #deleted {
-color: rgba(181, 131, 141, 0.6);
+	color: rgba(181, 131, 141, 0.9);
 }
 a:link, a:active {
-color: rgb(229, 152, 155)
+	color: rgb(229, 152, 155)
 }
 a:hover {
-color: rgb(181, 131, 141)
+	color: rgb(181, 131, 141)
+}
+.header {
+	color: #FFB4A2;
+	background-color: rgba(109, 104, 117, 0.5);
+	border: #FFCDB2;
+	border-style: solid;
+	border-left-width: 2px;
+	border-bottom-width: 2px;
+	border-right-width: 2px;
+	border-top-width: 2px;	
+	text-align: center;
+}
+.text {
+	background-color: rgba(109, 104, 117, 0.5);
+	border: #FFCDB2;
+	border-style: dashed;
+	border-left-width: 2px;
+	border-bottom-width: 2px;
+	border-right-width: 2px;
+	border-top-width: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 99%;
 }
