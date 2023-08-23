@@ -1,82 +1,53 @@
 body {
-  /*Background-color: rgb(109, 104, 117);*/
-  color: rgb(229, 152, 155);
-  font-family: "ink free", sans serif;
-  background-image: url(https://web.archive.org/web/20090725113659im_/http://www.geocities.com/aeromech_99a/WallpaperBlueBlinkingStars.gif);
-  background-repeat: repeat;
-  margin-left: 25%;
-  margin-right: 20%;
+	background-color: #191716;
+	color: #84596B;
+	font-family: "ink free", "sans serif";
+    margin-left: 125px;
+    margin-right: 30%;
+    text-align: left;
 }
 #menu {
   position: absolute;
-  left: 50px;
-  top: 90;
+  left: 12px;
+  top: 70px;
   width: 55px;
   height: 45px;
   z-index: 1;
-  background-color: rgba(109, 104, 117, 0.5);
-  border-color: #ffcdb2;
+  background-color: rgba(175, 155, 182, 0.2);
+  border-color: #84596B;
   border-style: dashed;
-  border-width: 2px;
+  border-width: 1px;
   padding-left: 1%;
   padding-right: 1%;
 }
-#w3 {
-  margin-left: 45%;
-  margin-right: 45%;
+#deleted1 {
+	color: rgba(132,89,107,0.3);
 }
-#deleted {
-  color: rgba(181, 131, 141, 0.8);
+#deleted2 {
+	color: rgba(132,89,107,0.3);
+}
+#deleted3 {
+	color: rgba(132,89,107,0.3);
 }
 a:visited {
-  color: rgb(229, 152, 155);
+  color: #603A40;
 }
 a:link,
 a:active {
-  color: rgb(229, 152, 155);
+  color: #84596B;
 }
 a:hover {
   color: rgb(181, 131, 141);
 }
-.header {
-  color: #ffb4a2;
-  background-color: rgba(109, 104, 117, 0.5);
-  border: #ffcdb2;
-  border-style: solid;
-  border-left-width: 2px;
-  border-bottom-width: 2px;
-  border-right-width: 2px;
-  border-top-width: 2px;
-  text-align: center;
-}
-.text {
-  background-color: rgba(109, 104, 117, 0.5);
-  border: #ffcdb2;
-  border-style: dashed;
-  border-left-width: 2px;
-  border-bottom-width: 2px;
-  border-right-width: 2px;
-  border-top-width: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-}
-.photo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 99%;
+.headers {
+	margin-left: 20%;
 }
 .diary_headers {
-  text-align: center;
+	margin-left: 35%;
 }
-.status {
-  position: absolute;
-  left: 60px;
-  top: 145px;
+.diary_dates {
+	margin-left: 36%;
 }
-#current {
-	position: absolute;
-	left: 70px;
-	top: 155px;
+hr {
+	color: #B5838D
 }
